@@ -1,0 +1,50 @@
+/* this css are use only header file */
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 20px;
+  align-items: center;
+  font-size: 18px;
+  background-color: rgb(86, 238, 238);
+  border-radius: 0 0 10px 10px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.header a {
+  text-decoration: none;
+  color: black;
+}
+.header a:hover {
+  color: gray;
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+}
+
+.from input {
+  width: 300px;
+  padding: 15px;
+  border-radius: 7px 0 0 7px;
+  border: 1px solid gray;
+}
+.from button {
+  padding: 15px;
+  border-radius: 0 7px 7px 0;
+  border: 1px solid gray;
+  cursor: pointer;
+}
+
+/* responsive css */
+@media only screen and (max-width: 400px) {
+  .from {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .from input {
+    width: 200px;
+  }
+}
