@@ -8,6 +8,7 @@ function TaskFrom({ title }) {
       {/* input from */}
       <form className={styles.form}>
         <input type="text" placeholder="Name" />
+        <textarea placeholder="description...." rows={10}></textarea>
         <input type="text" placeholder="day-month-year" />
         <select name="" id="">
           <option value="">Low</option>

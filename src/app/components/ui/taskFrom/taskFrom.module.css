@@ -29,6 +29,12 @@
   border: 1px solid gray;
   border-radius: 7px;
 }
+.form textarea {
+  padding: 15px;
+  font-size: 18px;
+  border: 1px solid gray;
+  border-radius: 7px;
+}
 .form input[type="submit"] {
   padding: 15px;
   font-weight: 600;
