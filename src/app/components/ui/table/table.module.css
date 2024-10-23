@@ -1,0 +1,34 @@
+.main h1 {
+  font-size: 32px;
+  text-align: center;
+  margin: 40px 0;
+}
+
+.table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table th {
+  text-align: left;
+  padding: 8px;
+}
+.table td {
+  text-align: left;
+  padding: 8px;
+}
+
+.table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.seeMore {
+  display: flex;
+  justify-content: end;
+  margin-top: 10px;
+  font-size: 18px;
+  color: orangered;
+}
+.seeMore:hover {
+  color: rgb(239, 132, 93);
+}
