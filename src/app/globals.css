@@ -7,3 +7,59 @@ body {
   max-width: 1400px;
   margin: 0 auto;
 }
+
+/* date picker coustom */
+.react-datetime-picker__inputGroup input {
+  padding: 5px 20px !important;
+  border: 0px solid !important;
+}
+.react-datetime-picker__inputGroup select {
+  padding: 5px 20px !important;
+  border: 0px solid !important;
+}
+.react-datetime-picker__inputGroup {
+  padding: 20px !important;
+}
+
+/* date and time picker responsive css start */
+@media only screen and (max-width: 550px) {
+  .react-datetime-picker__inputGroup input {
+    padding: 5px 10px !important;
+    border: 0px solid !important;
+  }
+  .react-datetime-picker__inputGroup select {
+    padding: 5px 10px !important;
+    border: 0px solid !important;
+  }
+  .react-datetime-picker__inputGroup {
+    padding: 10px !important;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .react-datetime-picker__inputGroup input {
+    padding: 2px 5px !important;
+    border: 0px solid !important;
+  }
+  .react-datetime-picker__inputGroup select {
+    padding: 2px 5px !important;
+    border: 0px solid !important;
+  }
+  .react-datetime-picker__inputGroup {
+    padding: 10px !important;
+  }
+}
+@media only screen and (max-width: 354px) {
+  .react-datetime-picker__inputGroup input {
+    padding: 0 !important;
+    border: 0px solid !important;
+  }
+  .react-datetime-picker__inputGroup select {
+    padding: 0 !important;
+    border: 0px solid !important;
+  }
+  .react-datetime-picker__inputGroup {
+    padding: 10px !important;
+  }
+}
+
+/* date and time picker responsive css end */
